@@ -64,7 +64,6 @@ img, video, iframe {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	padding: 10px;
-	padding-top: 50vh;
 	gap: 10px;
 }
 .home-grid a {
