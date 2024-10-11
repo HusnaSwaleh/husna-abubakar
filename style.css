@@ -50,6 +50,7 @@ img, video, iframe {
 	display: block;
 	letter-spacing: -.01em;
 	background-color: white;
+	transition: all 0.2s ease;
 }
 .home-nav-link:hover {
 	background-color: black;
@@ -147,6 +148,7 @@ img, video, iframe {
 	display: block;
 	letter-spacing: -.01em;
 	background-color: white;
+	transition: all 0.2s ease;
 }
 .project-nav-link:hover,
 .project-nav-title:hover {
@@ -267,6 +269,7 @@ img, video, iframe {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: -.01em;
+	transition: all 0.2s ease;
 }
 .project-link:hover {
 	background-color: white;
