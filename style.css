@@ -53,7 +53,7 @@ img, video, iframe {
 	transition: color 0.2s ease;
 }
 .home-nav-link:hover {
-	background-color: black;
+	background-color: transparent;
 	color: white;
 }
 .home-nav-link:active {
@@ -94,7 +94,6 @@ img, video, iframe {
 	display: block;
 }
 .home-grid a:active h2 {
-	background-color: black;
 	color: white;
 }
 .home-grid a img {
