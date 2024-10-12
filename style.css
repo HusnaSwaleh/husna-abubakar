@@ -50,7 +50,7 @@ img, video, iframe {
 	display: block;
 	letter-spacing: -.01em;
 	background-color: white;
-	transition: all 0.2s ease;
+	transition: color 0.2s ease;
 }
 .home-nav-link:hover {
 	background-color: black;
@@ -176,8 +176,7 @@ img, video, iframe {
 }
 
 /* Project images */
-.project-slideshow {
-	background-color: black;
+.project-slideshow {	
 	aspect-ratio: 1/1;
 	position: sticky;
 	top: 10px;
