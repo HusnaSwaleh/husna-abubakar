@@ -51,10 +51,11 @@ img, video, iframe {
 	letter-spacing: -.01em;
 	background-color: transparent;
 	transition: color 0.2s ease;
+
 }
 .home-nav-link:hover {
 	background-color: transparent;
-	color: black;
+	color: white;
 }
 .home-nav-link:active {
 	opacity: .5;
@@ -144,7 +145,7 @@ img, video, iframe {
 	color: black;
 	text-transform: uppercase;
 	line-height: 1em;
-	padding: 2px 5px 2px 0;
+	padding: 2px 5p
 	display: block;
 	letter-spacing: -.01em;
 	background-color: transparent;
