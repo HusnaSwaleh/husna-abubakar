@@ -54,7 +54,7 @@ img, video, iframe {
 }
 .home-nav-link:hover {
 	background-color: transparent;
-	color: white;
+	color: black;
 }
 .home-nav-link:active {
 	opacity: .5;
@@ -71,7 +71,7 @@ img, video, iframe {
 	aspect-ratio: 1/1;
 	background-color: white;
 	position: relative;
-	color: white;
+	color: black;
 }
 .home-grid a h2 {
 	position: absolute;
@@ -94,7 +94,7 @@ img, video, iframe {
 	display: block;
 }
 .home-grid a:active h2 {
-	color: white;
+	color: black;
 }
 .home-grid a img {
 	width: 100%;
@@ -140,7 +140,7 @@ img, video, iframe {
 .project-nav-link {
 	font-size: 16px;
 	text-decoration: none;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	line-height: 1em;
 	padding: 2px 5px 2px 0;
@@ -152,7 +152,7 @@ img, video, iframe {
 .project-nav-link:hover,
 .project-nav-title:hover {
 	background-color: white;
-	color: white;
+	color: black;
 }
 .project-nav-link:active,
 .project-nav-title:active {
@@ -225,7 +225,7 @@ img, video, iframe {
 }
 .project-slideshow-controls button:hover {
 	background-color: white;
-	fill: white;
+	fill: black;
 }
 .project-slideshow-controls button:active {
 	opacity: .5;
@@ -261,8 +261,8 @@ img, video, iframe {
 }
 .project-link {
 	font-size: 16px;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
