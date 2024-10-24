@@ -128,7 +128,7 @@ img, video, iframe {
 .project-nav-title {
 	font-size: 40px;
 	text-decoration: none;
-	color: black;
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 	line-height: 1em;
 	padding: 2px 5px 2px 0;
@@ -136,6 +136,7 @@ img, video, iframe {
 	margin-bottom: 10px;
 	letter-spacing: -.02em;
 	background-color: transparent;
+	transition: color 0.2s ease;
 }
 .project-nav-link {
 	font-size: 16px;
@@ -151,8 +152,8 @@ img, video, iframe {
 }
 .project-nav-link:hover,
 .project-nav-title:hover {
-	background-color: transparent;
-	color: black;
+	background-color: transparent; /* Remove black background */
+    color: #ffffff;
 }
 .project-nav-link:active,
 .project-nav-title:active {
@@ -267,11 +268,12 @@ img, video, iframe {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: -.01em;
-	transition: all 0.2s ease;
+	transition: color 0.2s ease
+
 }
 .project-link:hover {
 	background-color: transparent;
-	color: black;
+	color: white;
 }
 .project-link:active {
 	opacity: .5;
