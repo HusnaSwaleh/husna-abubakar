@@ -273,7 +273,7 @@ img, video, iframe {
 }
 .project-link:hover {
 	background-color: transparent;
-	color: white;
+	color: black;
 }
 .project-link:active {
 	opacity: .5;
