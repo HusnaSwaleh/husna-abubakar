@@ -128,7 +128,7 @@ img, video, iframe {
 .project-nav-title {
 	font-size: 40px;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
+	color: black;
 	text-transform: uppercase;
 	line-height: 1em;
 	padding: 2px 5px 2px 0;
