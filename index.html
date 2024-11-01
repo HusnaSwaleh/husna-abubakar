@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="video-background">
+        <video autoplay muted playsinline>
+            <source src="/assets/Webclip.mov" type="video/mp4">
+        </video>
+    </div>
 	<header class="home-header">
 		<h1 class="home-header-title">HUSNA ABUBAKAR</h1>
 	</header>
@@ -16,5 +21,18 @@
 		<a href="/projects/" class="home-nav-link">Projects</a>
 		<a href="mailto:husnaswaleh00@gmail.com" class="home-nav-link">Contact</a>
 	</nav>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const video = document.querySelector('.video-background video');
+			
+			video.addEventListener('ended', function() {
+				video.classList.add('fade-out');
+				
+				setTimeout(() => {
+					video.style.display = 'none';
+				}, 1000);
+			});
+		});
+	</script>
 </body>
 </html>
