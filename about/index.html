@@ -7,6 +7,14 @@
 	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
+	<div class="video-background">
+        <video autoplay muted playsinline>
+            <source src="/assets/Webclip.mov" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="home-header-title">...</div>
+    <nav class="home-nav">...</nav>
 	<nav class="project-nav">
 		<a href="/" class="project-nav-title">Husna Abubakar</a>
 		<a href="/about/" class="project-nav-link">About</a>
@@ -37,5 +45,18 @@
 	</main>
 
 	<script src="/slideshow.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const video = document.querySelector('.video-background video');
+			
+			video.addEventListener('ended', function() {
+				video.classList.add('fade-out');
+				
+				setTimeout(() => {
+					video.style.display = 'none';
+				}, 1000);
+			});
+		});
+	</script>
 </body>
 </html>
