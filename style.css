@@ -96,6 +96,7 @@ img, video, iframe {
 	transition: all 0.2s ease;
 }
 .home-nav-link:active {
+	background-color: transparent;
 	opacity: .5;
 }
 
