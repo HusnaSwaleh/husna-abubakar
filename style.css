@@ -226,19 +226,19 @@ img, video, iframe {
     width: 90%; 
 }
 .project-slideshow-content {
-	position: absolute;
-	padding: 1px;
+	position: sticky;
+	padding: 52px;
 	top: -76;
 	left: 0;
-	width: 135%;
+	width: 115%;
 	height: 120%;
 	overflow: hidden;
 	transition: all 0.2s ease;
 }
 .project-slideshow-content > * {
-	width: 139%;
-    height: calc(131% - 130px);
-    padding-top: -16px;
+	width: 115%;
+    height: calc(121% - 210px);
+    padding-top: 397px;
     object-fit: contain;
 
 }
