@@ -227,10 +227,10 @@ img, video, iframe {
 }
 .project-slideshow-content {
 	position: absolute;
-	padding: 40px;
-	top: -221px;
-	left: -163%;
-	width: 100%;
+	padding: 70px;
+	top: -76;
+	left: -7%;
+	width: 60%;
 	height: 126%;
 	overflow: hidden;
 	transition: all 0.2s ease;
