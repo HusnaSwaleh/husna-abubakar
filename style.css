@@ -208,10 +208,10 @@ img, video, iframe {
 .project-grid {
 	display: grid;
     grid-template-columns: 1fr 1fr; /* Keep the two-column layout */
-    gap: 20px; /* Adjust space between image and text */
-    padding: 40px; /* Add padding around the entire grid */
+    gap: -4px; /* Adjust space between image and text */
+    padding: 100px; /* Add padding around the entire grid */
     max-width: 1400px; /* Optional: limit maximum width */
-    margin: 0 auto;
+    align-items: start;
 }
 @media only screen and (max-width: 700px) {
 	.project-grid {
@@ -225,13 +225,14 @@ img, video, iframe {
 	aspect-ratio: 1/1;
     position: relative; /* Change from sticky to relative if you want it to scroll */
     top: 0;
-    width: 100%;
+    width: 80%;
     height: auto;
+	padding-right: 0;
 }
 .project-slideshow-content {
 	position: relative; /* Change from absolute to relative */
-    padding: 10px;
-    width: 100%;
+    padding: 1px;
+    width: 80%;
     height: auto;
 }
 .project-slideshow-content > * {
