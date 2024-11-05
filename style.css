@@ -1,18 +1,18 @@
 @font-face {
-    font-family: "Nimbus Roman";
+    font-family: "Neue Haas Grotesk";
     src: url("/assets/fonts/NeueHaasGroteskDisplay-Reg.otf") format("opentype");
 }
 
 @font-face {
-	font-family: "Neue Haas Grotesk";
-	src: url("assets/fonts/NimbusRomNo9L-Reg.otf");
+	font-family: "Jomolhari";
+	src: url("assets/fonts/Jomolhari-Regular.ttf");
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Nimbus Roman", "Neue Haas Grotesk", "Helvetica", serif, sans-serif;
+	font-family: "Neue Haas Grotesk", "Helvetica", serif, sans-serif;
 }
 
 body {
@@ -28,7 +28,7 @@ img, video, iframe {
 
 /* Homepage header */
 .home-header-title {
-	font-family: "Nimbus Roman", "Neue Haas Grotesk", "Helvetica", sans-serif;
+	font-family: "Neue Haas Grotesk", "Helvetica", sans-serif;
 	font-weight: normal;
 	font-size: calc(11.7vw - 2.5px);
 	white-space: nowrap;
@@ -207,10 +207,11 @@ img, video, iframe {
 /* Project content */
 .project-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding: 10px;
-	gap: 10px;
-	align-items: start;
+    grid-template-columns: 1fr 1fr; /* Keep the two-column layout */
+    gap: 20px; /* Adjust space between image and text */
+    padding: 40px; /* Add padding around the entire grid */
+    max-width: 1400px; /* Optional: limit maximum width */
+    margin: 0 auto;
 }
 @media only screen and (max-width: 700px) {
 	.project-grid {
@@ -221,27 +222,24 @@ img, video, iframe {
 
 /* Project images */
 .project-slideshow {	
-	margin-left: 100px; /* Push it to the right */
-    padding-right: 40px; /* Reduce right padding */
-    width: 90%; 
+	aspect-ratio: 1/1;
+    position: relative; /* Change from sticky to relative if you want it to scroll */
+    top: 0;
+    width: 100%;
+    height: auto;
 }
 .project-slideshow-content {
-	position: absolute;
-	padding: 70px;
-	top: -197;
-	left: 10%;
-	width: 35%;
-	height: 126%;
-	overflow: hidden;
-	transition: all 0.2s ease;
+	position: relative; /* Change from absolute to relative */
+    padding: 10px;
+    width: 100%;
+    height: auto;
 }
 .project-slideshow-content > * {
-	width: 115%;
-    height: calc(121% - 210px);
-    padding-top: 397px;
-    object-fit: contain;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
 
-}
 .project-slideshow-controls {
 	position: absolute;
 	bottom: 0;
