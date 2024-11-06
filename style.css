@@ -328,7 +328,7 @@ img, video, iframe {
 }
 .project-link:hover {
 	background-color: transparent;
-	color: black;
+	color: white;
 	transition: all 0.2s ease;
 }
 .project-link:active {
