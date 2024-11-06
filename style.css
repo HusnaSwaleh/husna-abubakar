@@ -290,6 +290,17 @@ img, video, iframe {
 	padding: 0 40px;
 	text-wrap: pretty;
 }
+
+.bio-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-family: "Jomolhari", serif; /* Using your Nimbus Roman font */
+}
+
+.bio-link:hover {
+    color: #171717;
+}
 .project-desc h1 {
 	font-size: 40px;
 	font-weight: normal;
