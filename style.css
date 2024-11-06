@@ -195,11 +195,13 @@ img, video, iframe {
 .project-nav-link:hover,
 .project-nav-title:hover {
 	background-color: transparent; /* Remove black background */
-    color: white; 
+    color: black; 
 	
 }
 .project-nav-link:active,
 .project-nav-title:active {
+	background-color: transparent;
+	color: black;
 	opacity: .5;
 	transition: all 0.2s ease;
 }
@@ -225,14 +227,14 @@ img, video, iframe {
 	aspect-ratio: 1/1;
     position: relative; /* Change from sticky to relative if you want it to scroll */
     top: 0;
-    width: 80%;
+    width: 100%;
     height: auto;
 	padding-right: 0;
 }
 .project-slideshow-content {
 	position: relative; /* Change from absolute to relative */
     padding: 1px;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 .project-slideshow-content > * {
