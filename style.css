@@ -236,25 +236,25 @@ img, video, iframe {
 }
 
 .project-slideshow-content img:nth-child(1) {
-    width: 10%; /* Adjust percentage to desired size */
+    width: 80%; /* Adjust percentage to desired size */
     margin: 0 auto 60px auto; /* Centers the image */
     display: block;
 }
 
 .project-slideshow-content img:nth-child(2) {
-    width: 60%; /* Adjust percentage to desired size */
+    width: 80%; /* Adjust percentage to desired size */
     margin: 0 auto 60px auto; /* Centers the image */
     display: block; /* Extra space after second image */
 }
 
 .project-slideshow-content img:nth-child(3) {
-    width: 60%; /* Adjust percentage to desired size */
+    width: 80%; /* Adjust percentage to desired size */
     margin: 0 auto 60px auto; /* Centers the image */
     display: block;
 }
 
 .project-slideshow-content img:nth-child(4) {
-    width: 10%; /* Adjust percentage to desired size */
+    width: 80%; /* Adjust percentage to desired size */
     margin: 0 auto 60px auto; /* Centers the image */
     display: block;
 }
