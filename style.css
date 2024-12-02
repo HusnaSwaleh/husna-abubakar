@@ -227,9 +227,27 @@ img, video, iframe {
 	aspect-ratio: 1/1;
     position: relative; /* Change from sticky to relative if you want it to scroll */
     top: 0;
-    width: 100%;
+    width: 80%;
     height: auto;
 	padding-right: 0;
+	margin-bottom: 40px;
+
+}
+
+.project-slideshow-content img:nth-child(1) {
+    width: 10%; /* Adjust percentage to desired size */
+    margin: 0 auto 60px auto; /* Centers the image */
+    display: block;
+}
+
+.project-slideshow-content img:nth-child(2) {
+    margin-bottom: 60px; /* Extra space after second image */
+}
+
+.project-slideshow-content img:nth-child(3) {
+    width: 10%; /* Adjust percentage to desired size */
+    margin: 0 auto 60px auto; /* Centers the image */
+    display: block;
 }
 .project-slideshow-content {
 	position: relative; /* Change from absolute to relative */
