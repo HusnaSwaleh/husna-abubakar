@@ -210,7 +210,7 @@ img, video, iframe {
 .project-grid {
 	display: grid;
     grid-template-columns: 1fr 1fr; /* Keep the two-column layout */
-    gap: -4px; /* Adjust space between image and text */
+    gap: -8px; /* Adjust space between image and text */
     padding: 100px; /* Add padding around the entire grid */
     max-width: 1400px; /* Optional: limit maximum width */
     align-items: start;
@@ -228,7 +228,7 @@ img, video, iframe {
 	aspect-ratio: 1/1;
     position: relative; /* Change from sticky to relative if you want it to scroll */
     top: 0;
-    width: 80%;
+    width: 100%;
     height: auto;
 	padding-right: 0;
 	margin-bottom: 40px;
@@ -236,26 +236,26 @@ img, video, iframe {
 }
 
 .project-slideshow-content img:nth-child(1) {
-    width: 80%; /* Adjust percentage to desired size */
-    margin: 0 auto 60px auto; /* Centers the image */
+    width: 100%; /* Adjust percentage to desired size */
+    margin: 0 auto 0% auto; /* Centers the image */
     display: block;
 }
 
 .project-slideshow-content img:nth-child(2) {
-    width: 80%; /* Adjust percentage to desired size */
-    margin: 0 auto 60px auto; /* Centers the image */
+    width: 100%; /* Adjust percentage to desired size */
+    margin: 0 auto 0% auto; /* Centers the image */
     display: block; /* Extra space after second image */
 }
 
 .project-slideshow-content img:nth-child(3) {
-    width: 80%; /* Adjust percentage to desired size */
-    margin: 0 auto 60px auto; /* Centers the image */
+    width: 100%; /* Adjust percentage to desired size */
+    margin: 0 auto 0% auto; /* Centers the image */
     display: block;
 }
 
 .project-slideshow-content img:nth-child(4) {
-    width: 80%; /* Adjust percentage to desired size */
-    margin: 0 auto 60px auto; /* Centers the image */
+    width: 100%; /* Adjust percentage to desired size */
+    margin: 0 auto 0% auto; /* Centers the image */
     display: block;
 }
 
